@@ -13,9 +13,6 @@ body {
   font-family: Roboto;
   font-size: 14px;
   font-weight: 400;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 a {
   color: inherit;
@@ -50,13 +47,13 @@ _button.scss
   color: #fff;
   letter-spacing: 0.84px;
   text-transform: uppercase;
-  padding: 12px 6px;
+  padding: 6px 12px;
 }
 
 .button-text {
   letter-spacing: 0.84px;
   text-transform: uppercase;
-  padding: 12px 6px;
+  padding: 6px 12px;
 }
 
 /*
@@ -74,4 +71,16 @@ _inner.scss
   background: #fff;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
     0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+}
+
+/*
+_overlay.scss
+*/
+
+.overlay {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
